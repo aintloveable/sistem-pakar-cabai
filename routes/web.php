@@ -7,7 +7,7 @@ use App\Http\Controllers\PenyakitController;
 use App\Http\Controllers\DiagnosaController;
 
 Route::get('/', function () {
-    return redirect('/login');
+    return redirect('/dashboard');
 });
 
 Route::middleware(['auth'])->group(function () {
