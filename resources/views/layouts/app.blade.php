@@ -8,7 +8,7 @@
 
     <title>Sistem Pakar Cabai</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
