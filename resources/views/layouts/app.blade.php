@@ -8,8 +8,7 @@
 
     <title>Sistem Pakar Cabai</title>
 
-    <link rel="stylesheet" href="{{ asset('build/assets/app-QqA-WEjH.css') }}">
-    <script type="module" src="{{ asset('build/assets/app-BjMeHjpC.js') }}"></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
