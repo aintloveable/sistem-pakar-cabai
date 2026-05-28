@@ -16,6 +16,7 @@ public function up(): void
         $table->string('kode_penyakit');
         $table->string('nama_penyakit');
         $table->text('solusi');
+        $table->integer('minimal_gejala')->default(1); 
         $table->timestamps();
     });
 }
